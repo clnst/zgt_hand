@@ -23,22 +23,19 @@ catkin_make
 
 
 ## 例程使用说明
+
 1: 打开一个终端输入"roscore"启动ROS控制服务
 
 2: 输入 rosrun zgt_bringup zgt_ctrl ${参数}
 
 3: 灵巧手完成单次运动控制
 
-  例如: 
-        XXX@hd-pc:~$ rosrun zgt_bringup zgt_ctrl 4
-  
-        HandCtrl init.
-	
-	[COM PARAM]: 115200, 8, 2, 0, 1, 0
-	
-	[手势]： 顺序张开.
-	
-	HandCtrl deinit.
+  例如:
+      XXX@hd-pc:~$ rosrun zgt_bringup zgt_ctrl 4
+      HandCtrl init.
+      [COM PARAM]: 115200, 8, 2, 0, 1, 0
+      [手势]： 顺序张开.
+      HandCtrl deinit.
 
 
 ## 备注
