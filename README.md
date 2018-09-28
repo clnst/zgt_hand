@@ -32,9 +32,13 @@ catkin_make
 
   例如:
       XXX@hd-pc:~$ rosrun zgt_bringup zgt_ctrl 4
+
       HandCtrl init.
+
       [COM PARAM]: 115200, 8, 2, 0, 1, 0
+
       [手势]： 顺序张开.
+
       HandCtrl deinit.
 
 
